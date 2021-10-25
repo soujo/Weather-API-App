@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.heading{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    font-family: 'Glory', sans-serif;
+    padding: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 22px 0px 10px 19px;
+    font-size: 2.7em;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background: rgba(238, 225, 225, 0.192);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#btn:hover{
+    background: rgba(238, 225, 225, 0.274);
+}
+#searchBar{
+    border: none;
+    outline: none;
+    background: rgba(238, 225, 225, 0.192);
+    color: white;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    font-size: 105%;
+    width: 70%;
+}
+.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+.description{
+    text-transform: capitalize;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.humidity{
+    margin-bottom: 4px;
+}
+h1{
+    margin-bottom: 4px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
